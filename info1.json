@@ -1,0 +1,155 @@
+{
+    "AccessControl": {
+        "AuthorizedUserGroups": [
+        ]
+    },
+    "Authentication": {
+        "KeyAuthenticationEnabled": "true",
+        "LogonAuthenticationEnabled": "false",
+        "Method": 1,
+        "PrivateKeyBaseDir": "C:\\vey\\pr\\",
+        "PublicKeyBaseDir": "C:\\vey\\pu\\"
+    },
+    "BuiltinDirectory": {
+        "NetworkObjects": {
+            "JsonStoreArray": [
+                {
+                    "HostAddress": "INF-F1-1",
+                    "Name": "INF-F1-1",
+                    "ParentUid": "{fb6bca3d-c35e-57dd-9ec8-40f4ab6215ea}",
+                    "Type": 3,
+                    "Uid": "{77e5dc3e-c2f4-4d71-a99e-669c909ed3e9}"
+                },
+                {
+                    "Name": "INF1",
+                    "Type": 2,
+                    "Uid": "{a692a11c-ed60-485a-8900-668d0241ffcf}"
+                },
+                {
+                    "HostAddress": "INF1-F1-1",
+                    "Name": "INF1-F1-1",
+                    "ParentUid": "{a692a11c-ed60-485a-8900-668d0241ffcf}",
+                    "Type": 3,
+                    "Uid": "{0b5aaf9d-515c-4992-8606-6a326540cbf0}"
+                },
+                {
+                    "HostAddress": "INF1-F1-2",
+                    "Name": "INF1-F1-2",
+                    "ParentUid": "{a692a11c-ed60-485a-8900-668d0241ffcf}",
+                    "Type": 3,
+                    "Uid": "{5b8748b0-368f-4bef-924d-c4fbd05d70b2}"
+                }
+            ]
+        }
+    },
+    "Core": {
+        "ApplicationVersion": 5,
+        "InstallationID": "0b1e409f-d9a8-44b8-b7b7-a9318af4974a",
+        "PluginVersions": {
+            "JsonStoreObject": {
+                "{14bacaaa-ebe5-449c-b881-5b382f952571}": "1.1",
+                "{1b08265b-348f-4978-acaa-45d4f6b90bd9}": "1.1",
+                "{1baa01e0-02d6-4494-a766-788f5b225991}": "1.1",
+                "{1bdb0d1c-f8eb-4d21-a093-d555a10f3975}": "1.1",
+                "{2917cdeb-ac13-4099-8715-20368254a367}": "1.1",
+                "{2ad98ccb-e9a5-43ef-8c4c-876ac5efbcb1}": "1.1",
+                "{387a0c43-1355-4ff6-9e1f-d098e9ce5127}": "1.1",
+                "{39d7a07f-94db-4912-aa1a-c4df8aee3879}": "1.1",
+                "{4122e8ca-b617-4e36-b851-8e050ed2d82e}": "1.2",
+                "{4790bad8-4c56-40d5-8361-099a68f0c24b}": "1.1",
+                "{67dfc1c1-8f37-4539-a298-16e74e34fd8b}": "1.1",
+                "{6f0a491e-c1c6-4338-8244-f823b0bf8670}": "1.2",
+                "{80580500-2e59-4297-9e35-e53959b028cd}": "1.2",
+                "{85f6c631-e75a-4c78-8cb2-a7f3f502015a}": "1.1",
+                "{8ae6668b-9c12-4b29-9bfc-ff89f6604164}": "1.1",
+                "{a54ee018-42bf-4569-90c7-0d8470125ccf}": "1.1",
+                "{b47bcae0-24ff-4bf5-869c-484d64af5c4c}": "1.1",
+                "{d4bb9c42-9eef-4ecb-8dd5-dfd84b355481}": "1.0",
+                "{e11bee03-b99c-465c-bf90-7e5339b83f6b}": "1.0",
+                "{ee322521-f4fb-482d-b082-82a79003afa7}": "1.1"
+            }
+        }
+    },
+    "Demo": {
+        "FramebufferUpdateInterval": 100,
+        "KeyFrameInterval": 10,
+        "MemoryLimit": 128
+    },
+    "Directories": {
+        "Screenshots": "$APPDATA\\Screenshots",
+        "UserConfiguration": "$APPDATA\\Config"
+    },
+    "ExternalVncServer": {
+        "ServerPort": 5900
+    },
+    "LDAP": {
+        "ComputerLocationAttribute": "",
+        "ComputerLocationsByAttribute": "false",
+        "ComputerLocationsByContainer": "false",
+        "LocationNameAttribute": "",
+        "ServerPort": 389,
+        "UserLoginNameAttribute": ""
+    },
+    "Logging": {
+        "LogFileDirectory": "$TEMP",
+        "LogFileRotationCount": 10,
+        "LogFileRotationEnabled": "false",
+        "LogFileSizeLimit": 100,
+        "LogFileSizeLimitEnabled": "false",
+        "LogLevel": 4,
+        "LogToStdErr": "true",
+        "LogToSystem": "false",
+        "LogToWindowsEventLog": "false"
+    },
+    "Master": {
+        "AllowAddingHiddenLocations": "false",
+        "AutoAdjustMonitoringIconSize": "false",
+        "AutoOpenComputerSelectPanel": "false",
+        "AutoSelectCurrentLocation": "false",
+        "ComputerMonitoringBackgroundColor": "#ffffff",
+        "ComputerMonitoringTextColor": "#000000",
+        "ComputerMonitoringUpdateInterval": 1000,
+        "ConfirmUnsafeActions": "false",
+        "EnforceSelectedModeForClients": "false",
+        "HideComputerFilter": "false",
+        "HideEmptyLocations": "false",
+        "HideLocalComputer": "false",
+        "ShowCurrentLocationOnly": "false"
+    },
+    "Network": {
+        "DemoServerPort": 11400,
+        "FeatureWorkerManagerPort": 11300,
+        "FirewallExceptionEnabled": "1",
+        "PrimaryServicePort": 11100,
+        "VeyonServerPort": 11100,
+        "VncServerPort": 11200
+    },
+    "NetworkObjectDirectory": {
+        "UpdateInterval": 60
+    },
+    "Service": {
+        "Arguments": "",
+        "Autostart": "true",
+        "FailedAuthenticationNotifications": "true",
+        "HideTrayIcon": "true",
+        "RemoteConnectionNotifications": "false",
+        "SoftwareSASEnabled": "0"
+    },
+    "UI": {
+        "ApplicationName": "",
+        "EnableHighDPIScaling": "false",
+        "Language": ""
+    },
+    "UltraVNC": {
+        "CaptureLayeredWindows": "true",
+        "Configured": "true",
+        "LowAccuracy": "true",
+        "PollFullScreen": "true"
+    },
+    "VncServer": {
+        "Plugin": "39d7a07f-94db-4912-aa1a-c4df8aee3879"
+    },
+    "Windows": {
+        "SoftwareSASEnabled": "1"
+    }
+}
