@@ -1,0 +1,6 @@
+[Setup]
+Lang=es
+Dir=C:\Program Files (x86)\Audacity
+Group=(Default)
+NoIcons=0
+Tasks=desktopicon
